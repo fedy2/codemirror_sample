@@ -1,0 +1,10 @@
+name: codemirror_sample
+description: A codemirror package sample web application
+dependencies:
+  browser: any
+  codemirror: any
+  polymer: any
+  
+transformers:
+- polymer:
+    entry_points: web/codemirror_sample.html
