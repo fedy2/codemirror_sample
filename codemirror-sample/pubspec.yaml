@@ -8,3 +8,5 @@ dependencies:
 transformers:
 - polymer:
     entry_points: web/codemirror_sample.html
+    inline_stylesheets:
+      packages/codemirror/codemirror.css: false
